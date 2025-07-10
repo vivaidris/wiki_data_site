@@ -31,3 +31,14 @@ h1{
     right: -775px;
 
 }
+ul{
+    background-color: black;
+}
+li{
+    float: center;
+}
+a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
