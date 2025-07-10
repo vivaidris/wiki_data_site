@@ -21,6 +21,13 @@ h1{
 #img_c_holder{
     align-items: center;
     position: relative;
-    top: -375px;
+    top: -275px;
     right: -35px;
+}
+#img_d_holder{
+    align-items: center;
+    position: relative;
+    top: -875px;
+    right: -775px;
+
 }
