@@ -34,6 +34,7 @@ h1{
 nav{
     background-color: black;
     padding: 10px 0;
+    height: 100px;
 }
 ul{
     margin: 0px;
@@ -50,4 +51,6 @@ a{
     text-decoration: none;
     padding: 8px 12px;
     background-color: black;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
