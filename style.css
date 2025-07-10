@@ -43,13 +43,13 @@ ul{
     justify-content: center;
 }
 li{
-    margin: 0 15px;
+    margin: 0 30px;
 }
 a{
     color: white;
     text-decoration: none;
     padding: 8px 12px;
     background-color: black;
-    font-size: 70px;
+    font-size: 55px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
