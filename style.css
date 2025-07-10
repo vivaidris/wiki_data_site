@@ -1,0 +1,26 @@
+h1{
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+#img_a_holder{
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: -50px;
+}
+#img_b_holder{
+    align-items: center;
+    position: relative;
+    top: -450px;
+    right: -800px
+}
+#img_c_holder{
+    align-items: center;
+    position: relative;
+    top: -375px;
+    right: -35px;
+}
