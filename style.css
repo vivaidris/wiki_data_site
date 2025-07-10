@@ -33,12 +33,21 @@ h1{
 }
 nav{
     background-color: black;
+    padding: 10px 0;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 li{
-    float: center;
+    margin: 0 15px;
 }
 a{
-    display: block;
-    padding: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
     background-color: black;
 }
