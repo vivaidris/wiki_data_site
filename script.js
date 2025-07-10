@@ -7,6 +7,10 @@ document.getElementById("img_b").addEventListener("mouseout", MouseOut);
 document.getElementById("img_c").addEventListener("mouseover", MouseOverC);
 document.getElementById("img_c").addEventListener("mouseout", MouseOut)
 
+document.getElementById("img_d").addEventListener("mouseover", MouseOverD);
+document.getElementById("img_d").addEventListener("mouseout", MouseOut)
+
+
 function removeTooltipImmediately() {
     const existing = document.getElementById("temp_id");
     if (existing) {
@@ -78,8 +82,32 @@ function MouseOverC() {
         element.appendChild(para);
 
         para.style.display = "block";
-        para.style.position = "relative";
-        para.style.positon = "right: 20px";
+        para.style.position = "absolute";
+        para.style.alignContent = "center";
+        para.style.fontFamily = "Verdana, Geneva, Tahoma, sans-serif";
+
+        requestAnimationFrame(() => {
+            para.style.opacity = "1"
+        })
+    }
+}
+
+function MouseOverD() {
+    removeTooltipImmediately();
+
+    if(!document.getElementById("temp_id")){
+        const para = document.createElement("p");
+        para.style.opacity = "0";
+        para.style.transition = "opacity 0.3s ease";
+        const node = document.createTextNode("This image shows a line chart of wikipedia's monthly views (Jan 2024-Jun 2025)");
+        para.appendChild(node);
+        para.setAttribute("id", "temp_id");
+
+        const element = document.getElementById("img_d_holder");
+        element.appendChild(para);
+
+        para.style.display = "block";
+        para.style.position = "absolute";
         para.style.alignContent = "center";
         para.style.fontFamily = "Verdana, Geneva, Tahoma, sans-serif";
 
