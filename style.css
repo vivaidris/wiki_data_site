@@ -32,7 +32,7 @@ h1{
 
 }
 nav{
-    background-color: black;
+    background-color: rgb(60, 57, 73);
     padding: 20px 0;
 }
 ul{
@@ -43,13 +43,31 @@ ul{
     justify-content: center;
 }
 li{
-    margin: 0 30px;
+    margin: 0 40px;
 }
 a{
     color: white;
     text-decoration: none;
     padding: 8px 12px;
-    background-color: black;
-    font-size: 40px;
+    background-color: rgb(60, 57, 73);
+    font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+#name{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: -800px;
+}
+#name_2{
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    bottom: -70px;
+    right: -100px;
 }
